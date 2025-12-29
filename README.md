@@ -122,7 +122,7 @@ The project automatically deploys to GitHub Pages when changes are pushed to the
 
 1. Builds the project using `npm run build`
 2. Deploys the built files to GitHub Pages
-3. Serves the site at the custom domain: **profiles.jobbyist.africa**
+3. Serves the site at the custom domain: **builder.jobbyist.co.za**
 
 **Manual Deployment**
 
@@ -138,7 +138,7 @@ To enable GitHub Pages for this repository:
 
 1. Go to Settings → Pages in the GitHub repository
 2. Under "Build and deployment", select "GitHub Actions" as the source
-3. Configure your DNS provider to point **profiles.jobbyist.africa** to GitHub Pages:
+3. Configure your DNS provider to point **builder.jobbyist.co.za** to GitHub Pages:
    - Add a CNAME record pointing to `<username>.github.io`
    - Or add A records pointing to GitHub Pages IP addresses (see [GitHub Pages custom domain docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site))
 
@@ -150,7 +150,7 @@ Yes, you can!
 
 **For GitHub Pages (Current Setup)**
 
-This project is configured to use the custom domain **profiles.jobbyist.africa**. The domain is set via the `CNAME` file in the `public/` directory.
+This project is configured to use the custom domain **builder.jobbyist.co.za**. The domain is set via the `CNAME` file in the `public/` directory.
 
 To use your own custom domain:
 1. Update `public/CNAME` with your domain name
